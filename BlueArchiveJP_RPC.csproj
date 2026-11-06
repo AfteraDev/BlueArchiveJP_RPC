@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <ApplicationIcon>halo.ico</ApplicationIcon>
+    <RootNamespace>BlueArchiveJP_RPC</RootNamespace>
+    <AssemblyName>BlueArchiveJP_RPC</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.6.1.70" />
+    <PackageReference Include="Costura.Fody" Version="5.7.0" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
